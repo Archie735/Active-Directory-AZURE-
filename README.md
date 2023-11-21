@@ -46,35 +46,22 @@ In this case, Winterland is virtual machine 1, the resource group will be Season
 <img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/8e6d1273-fd92-4319-8114-cf9712900c3e width="80%" height="auto" id="static change" alt="">
 
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>Ensure connectivity using perpetual ping</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Open two windows of remote desktop: one for Winterland and the other for Autumn.
+    - (In case it may get confusing change the background photos of one or both desktops)
+- On the Autumn remote desktop, open the command prompt and ping -t "Winterland's private IP address"
 
-<h2>Deployment and Configuration Steps</h2>
+<img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/c0173412-2a68-4b47-8187-cd0528f7e080 width="80%" height="auto" id="request timed out" alt="">
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- In Winterland's remote desktop, on the search bar, type and select "Windows Defender Firewall with Advanced Security"
+-  Select "inbound rules" then filter the protocol to view all rules with ICMPv4
+-  Right-click and enable Virtual Machine Monitoring and Core Networking Diagnostics (domain and private profile)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/b952d1a9-d594-4c73-935b-79899eb4db55 width="80%" height="auto" id="inbound rules" alt="">
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- The ping is successful if there is a reply
+
+<img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/2a54629c-b148-4e9b-b184-c5c6472005ad width="80%" height="auto" id="inbound rules" alt="">
+
+
