@@ -15,8 +15,26 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
-- Windows 10 (21H2)
+- Windows 11 Pro (22H2)
+
+<h2>Prerequisite</h2>
+
+Create two Windows 11 virtual machines that must be in the same virtual network.
+In this case, Winterland is virtual machine 1, the resource group will be Seasons. Fill in the information below for Virtual Machine 2, Autumn ↓
+
+    Subscription: Azure subscription 1
+    Resource group: Seasons
+    Virtual machine name: Autumn
+    Region: (US) East US
+    Image: Windows 11 Pro, version 22H2 - x64 Gen 2
+    Size: Standard_D4s_v3 - 4vcpus, 16 GiB memory
+    Authentication type: Password
+    Username: AutumnApple
+    Password: Free4falling
+    Confirm licensing
+    Virtual network: Winterland-vnet
+    Review + create then Create
+     
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
