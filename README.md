@@ -19,7 +19,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Prerequisite</h2>
 
-Create two Windows 11 virtual machines that must be in the same virtual network.
+Create two <a href=https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/blob/main/README.md>Windows 11 </a> virtual machines that must be in the same virtual network.
 In this case, Winterland is virtual machine 1, the resource group will be Seasons. Fill in the information below for Virtual Machine 2, Autumn ↓
 
     Subscription: Azure subscription 1
@@ -34,7 +34,17 @@ In this case, Winterland is virtual machine 1, the resource group will be Season
     Confirm licensing
     Virtual network: Winterland-vnet
     Review + create then Create
-     
+
+<h2> Update Settings on Winterland </h2>
+
+- Under Network settings, click on Network Interface
+- Under Settings, click on IP configurations then click on the name ipconfig 1
+- Change the assignment to "static" then save
+
+  *Static keeps the IP address the same
+
+<img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/8e6d1273-fd92-4319-8114-cf9712900c3e width="80%" height="auto" id="static change" alt="">
+
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
