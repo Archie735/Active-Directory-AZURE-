@@ -1,5 +1,6 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/4322bc56-a0db-415d-876b-1670a8035d98
+ alt="Microsoft Active Directory Logo"/>
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
@@ -64,4 +65,17 @@ In this case, Winterland is virtual machine 1, the resource group will be Season
 
 <img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/2a54629c-b148-4e9b-b184-c5c6472005ad width="80%" height="auto" id="inbound rules" alt="">
 
+
+<h2>Install Server Manager in Winterland</h2>
+
+- Settings
+- Apps
+- Optional Features
+- Add an optional feature click view features
+- Type "server manager" on the search bar
+- Check RSAT: Server Manager
+- Next
+- Install
+
+<img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/319daa07-88ae-4702-ad98-44242354bc72 width="80%" height="auto" id="Server manager install" alt="">
 
