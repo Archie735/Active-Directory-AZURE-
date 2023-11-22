@@ -20,14 +20,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Prerequisite</h2>
 
-Create two <a href=https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/blob/main/README.md>Windows 11 </a> virtual machines that must be in the same virtual network.
+Create two Windows 10 virtual machines that must be in the same network. 
+
+<a href=https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/blob/main/README.md> Click here </a> to know how to build a virtual machine. Replace the image with Windows 10 Pro, version 22H2 - 64x Gen 2.
+
 In this case, Winterland is virtual machine 1, the resource group will be Seasons. Fill in the information below for Virtual Machine 2, Autumn ↓
 
     Subscription: Azure subscription 1
     Resource group: Seasons
     Virtual machine name: Autumn
     Region: (US) East US
-    Image: Windows 11 Pro, version 22H2 - x64 Gen 2
+    Image: Windows 10 Pro, version 22H2 - 64x Gen 2
     Size: Standard_D4s_v3 - 4vcpus, 16 GiB memory
     Authentication type: Password
     Username: AutumnApple
@@ -76,6 +79,10 @@ In this case, Winterland is virtual machine 1, the resource group will be Season
 - Check RSAT: Server Manager
 - Next
 - Install
+- Open Server Manager
 
 <img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/319daa07-88ae-4702-ad98-44242354bc72 width="80%" height="auto" id="Server manager install" alt="">
+
+<img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/e3fb014a-b7c7-4632-8612-c632ea394797 width="80%" height="auto" id="server manager dashboard" alt="">
+
 
