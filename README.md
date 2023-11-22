@@ -19,7 +19,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows 11 Pro(22H2)
 - Windows Server 
 
-<h2>Set up Virtual Machines</h2>
+<h2>1. Set up Virtual Machines</h2>
 
 Create two virtual machines 
 
@@ -56,7 +56,7 @@ Information for Virtual Machine 2 (Autumn) 🍂↓
     Virtual network: Spring-vnet
     Review + create then Create
 
-<h2> Update Settings on Spring </h2>
+<h2>2. Update Settings on Spring </h2>
 
 - Under Network settings, click on Network Interface
 - Under Settings, click on IP configurations then click on the name ipconfig 1
@@ -68,7 +68,7 @@ Information for Virtual Machine 2 (Autumn) 🍂↓
 
 <img src="https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/9e787e6e-7592-4702-bf8e-9bfec159d7ac" alt="Spring IP configurations">
 
-<h2>Ensure connectivity using perpetual ping</h2>
+<h2>3.Ensure connectivity using perpetual ping</h2>
 
 - Open two windows of remote desktop: one for Spring and the other for Autumn.
     - (In case it may get confusing change the background photos of one or both desktops)
@@ -89,3 +89,11 @@ Information for Virtual Machine 2 (Autumn) 🍂↓
 <img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/2b9a332d-1241-4574-bcff-974619d26363 width="80%" height="auto" id="successful ping" alt="Autumn success reply">
 
 <h2>Install Active Directory</h2>
+
+- In the Spring desktop go to server manager. (It should already be opened or type it on the search bar)
+- Add roles and features
+- Mark the active directory domain services
+- Click next all the way then install
+- Wait until the installation is complete then close
+
+<img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/e2939c13-d2e6-40bd-932f-b4337982bc96 alt="server manager">
