@@ -97,3 +97,23 @@ Information for Virtual Machine 2 (Autumn) 🍂↓
 - Wait until the installation is complete then close
 
 <img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/e2939c13-d2e6-40bd-932f-b4337982bc96 alt="server manager">
+
+- Click the notification flag
+- Click "Promote this server to as a domain controller"
+
+<img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/fa2688ba-82e9-4359-8279-9c28b1f31501 alt="flag notification">
+
+- Add new forest
+- Root domain name: myholiday.com
+
+<img src=https://github.com/Archie735/Active-Directory-AZURE-/assets/150314129/2d23be97-2fb5-4262-b011-cb806d4fad65 alt="Deployment Configuration">
+
+- Password: Springforward4
+- Confirm password: Springforward4
+
+- Click next all the way through then click install (It will restart and require to log back in)
+- Copy and paste the Spring's public address to the Remote desktop
+- Use a different account
+- The username will be the fully qualified domain name: myholiday.com\Springtime
+- Password: Springforward4
+
