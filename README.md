@@ -116,7 +116,3 @@ Information for Virtual Machine 2 (Autumn) 🍂↓
 - Use a different account
 - The username will be the fully qualified domain name: myholiday.com\Springtime
 - Password: Springforward4
-
-<h2 align="right"> 5. Create a new Admin and User using Active Directory </h2>
-
-- 
